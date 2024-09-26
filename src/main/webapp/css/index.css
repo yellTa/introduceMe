@@ -1,0 +1,41 @@
+.contents{
+    width: 800px;
+    padding: 10px;
+    text-align: center;
+}
+article{
+    margin: 0 auto;
+}
+section{
+    width : 800px;
+    margin: 5px;
+}
+article> section> p{
+    font-size: 10px;
+}
+article> section > div {
+    background-color: cornflowerblue;
+    display: inline-block;
+    margin: 3px;
+    width: 100px;
+    height: 100px;
+}
+
+article> section > div >a {
+    height: 20px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    text-decoration: none;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+section:nth-child(4){
+    margin: 0  auto;
+}
+
+img{
+    width: 800px;
+}

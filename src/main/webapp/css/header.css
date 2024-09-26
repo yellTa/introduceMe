@@ -1,0 +1,22 @@
+
+ul{
+    margin: 0 auto;
+    width: 800px;
+    text-align: right;
+}
+ul > li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    text-align: center;
+    width: 100px;
+    padding: 8px;
+    margin-right: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+ul > li > a{
+    text-decoration: none;
+}
